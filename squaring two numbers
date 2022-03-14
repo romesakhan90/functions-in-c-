@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+	int sq (int a)
+	{
+	int b=a*a;
+	return b;
+   }
+   
+   int main()
+   {
+   	 int num1;
+   	cout<<"enter number"<<endl;
+   	cin>>num1;
+   	cout<<"square of number is "<<sq(num1)<<endl;
+   	return 0;
+   }
